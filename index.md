@@ -39,9 +39,11 @@ This command can be something simple like a message or it can be something more 
 
 - _/ping_ : pong
 
+
 - _/server-info_ :
   - **Server Name** <server_name>
   - **Total Members** <member_count>
+
 
 - _/user-info_ :
 
@@ -50,7 +52,9 @@ This command can be something simple like a message or it can be something more 
   - **User Id** <user_id>
   - **User Profile Picture** <avatar_thumbnail>
 
+
 - _/vogue_ :
+
 
 ![card-example](https://user-images.githubusercontent.com/21233558/148636308-94f71281-edd4-4203-8922-a7dbee5fc387.png)
 
