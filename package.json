@@ -1,0 +1,34 @@
+{
+  "name": "discord-bots",
+  "version": "1.0.0",
+  "description": "app to manage and customize bots for discord servers",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "nodemon index.js",
+    "deploy": "nodemon deploy-commands.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/indeskyz/discord-bots.git"
+  },
+  "keywords": [
+    "discord",
+    "bots",
+    "custom"
+  ],
+  "author": "hazel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/indeskyz/discord-bots/issues"
+  },
+  "homepage": "https://github.com/indeskyz/discord-bots#readme",
+  "dependencies": {
+    "@discordjs/builders": "^0.11.0",
+    "@discordjs/rest": "^0.2.0-canary.0",
+    "discord-api-types": "^0.26.1",
+    "discord.js": "^13.5.0",
+    "dotenv": "^10.0.0",
+    "nodemon": "^2.0.15"
+  }
+}
