@@ -1,37 +1,52 @@
-## Welcome to GitHub Pages
+# About
 
-You can use the [editor on GitHub](https://github.com/indeskyz/discord-bots/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+### What's this for?
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+This bot is used as an incentive for when a user boosts the discord server
 
-### Markdown
+When a user boosts the server, they will be rewarded with a custom command in the form of _/<username_of_booster>_
+This command can be something simple like a message or it can be something more complex like a message card that displays their social media links, artwork, portfolios, etc.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+---
 
-```markdown
-Syntax highlighted code block
+## Current Supported Commands
 
-# Header 1
-## Header 2
-### Header 3
+### See section below the following table for full descriptions of each response
 
-- Bulleted
-- List
+| Command          | Description                                     |
+| ---------------- | ----------------------------------------------- |
+| **/about**       | displays information about the bot and it's use |
+| **/hazel**       | displays a greeting about the author of the bot |
+| **/ping**        | used for inital testing                         |
+| **/server-info** | displays information about the server                         |
+| **/user-info**   | gives basic information about the user          |
+| **/vogue**       | example command of a custom command for an user |
 
-1. Numbered
-2. List
+---
 
-**Bold** and _Italic_ and `Code` text
+## Command Response Details
 
-[Link](url) and ![Image](src)
-```
+### Format is the following: *command_name* : command response
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+- _/about_ : I'm VOGUE's custom Bot for users who Boost the Server.
+  Whenever you boost the server, you will awarded with a custom command based on your username.
+  You can use this to promote your social media, personal artworks, or promote any other platforms you wish.
+  Optionally, you can use me to have your own custom command that displays a personalized message.
 
-### Jekyll Themes
+- _/ping_ : pong
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/indeskyz/discord-bots/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+- _/server-info_ :
 
-### Support or Contact
+  - **Server Name** <server_name>
+  - **Total Members** <member_count>
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+- _/user-info_ :
+
+  - **User Creation Date** <created_date>
+  - **Days User Has Been A Part of the Server** <days_elapsed_since_joining>
+  - **User Id** <user_id>
+  - **User Profile Picture** <avatar_thumbnail>
+
+- _/vogue_ :
+
+![Example of a Social Media Card](/images/card-example.png "Social Media Card")
