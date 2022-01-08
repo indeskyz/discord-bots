@@ -45,12 +45,15 @@ This command can be something simple like a message or it can be something more 
   - **Total Members** <member_count>
 
 
+
 - _/user-info_ :
 
   - **User Creation Date** <created_date>
   - **Days User Has Been A Part of the Server** <days_elapsed_since_joining>
   - **User Id** <user_id>
   - **User Profile Picture** <avatar_thumbnail>
+
+
 
 
 - _/vogue_ :
