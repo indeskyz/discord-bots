@@ -35,13 +35,15 @@ This command can be something simple like a message or it can be something more 
 
 - _/ping_ : pong
 
-- _/server-info_ : Server Name <server_name>
-  Total Members <member_count>
+- _/server-info_ : **Server Name** <server_name>, 
+  **Total Members** <member_count>
 
-- _/user-info_ : User Creation Date <created_date>
-  Days User Has Been A Part of the Server <days>
-  User Id <user_id>
-  User Profile Picture <avatar_url>
+- _/user-info_ : **User Creation Date** <created_date>,
+  **Days User Has Been A Part of the Server** <days>,
+  **User Id** <user_id>,
+  **User Profile Picture** <avatar_url>
 
-- _/vogue_ : 
+- _/vogue_ :
+
+
 ![Example of a Social Media Card](/images/card-example.png "Social Media Card")
