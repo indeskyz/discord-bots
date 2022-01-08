@@ -43,7 +43,7 @@ This command can be something simple like a message or it can be something more 
 - _/user-info_ :
 
   - **User Creation Date** <created_date>
-  - **Days User Has Been A Part of the Server** <days_ellapsed>
+  - **Days User Has Been A Part of the Server** <days_elapsed>
   - **User Id** <user_id>
   - **User Profile Picture** <avatar_url>
 
