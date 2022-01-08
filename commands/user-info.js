@@ -12,7 +12,6 @@ module.exports = {
         const serverJoinDate = interaction.member.joinedTimestamp;
         const calculateTimeDifference = currentTime - serverJoinDate;
         const convertTimeToDays = Math.floor(calculateTimeDifference / (1000*60*60*24));
-        console.log(convertTimeToDays);
         const memberSince = convertTimeToDays === 0 ? `They just joined the server today!` : `${convertTimeToDays} Days`;
         await interaction.reply(`Your Profile:\n
 Created At: ${interaction.user.createdAt}\n
