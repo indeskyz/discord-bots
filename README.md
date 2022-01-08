@@ -4,7 +4,7 @@
 
 This bot is used for an incentive for when a user boosts the discord server
 
-When a user boosts the server, they will be rewarded with a custom command in the form of _/<username_of_booster>_
+When a user boosts the server, they will be rewarded with a custom command in the form of _/<username_of_booster>_.
 This command can be something simple like a message or it can be something more complex like a message card that displays their social media links, artwork, portfolios, etc.
 
 ---
@@ -20,7 +20,7 @@ This command can be something simple like a message or it can be something more 
 | **/ping**        | used for inital testing                         |
 | **/server-info** | used for inital testing                         |
 | **/user-info**   | gives basic information about the user          |
-| **/vogue**       | example command for a custom command for a user |
+| **/vogue**       | example command of a custom command for a user |
 
 ---
 
