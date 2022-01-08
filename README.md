@@ -24,7 +24,7 @@ This command can be something simple like a message or it can be something more 
 
 ---
 
-## Command Response Detials
+## Command Response Details
 
 ### Format is the following: *command_name* : command response
 
