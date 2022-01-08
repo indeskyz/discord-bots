@@ -20,7 +20,7 @@ This command can be something simple like a message or it can be something more 
 | **/ping**        | used for inital testing                         |
 | **/server-info** | used for inital testing                         |
 | **/user-info**   | gives basic information about the user          |
-| **/vogue**       | example command of a custom command for a user |
+| **/vogue**       | example command of a custom command for an user |
 
 ---
 
