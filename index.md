@@ -1,4 +1,8 @@
-# About
+VOGUE Discord Bot
+
+---
+
+## About
 
 ### What's this for?
 
