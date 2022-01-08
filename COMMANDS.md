@@ -43,4 +43,5 @@ This command can be something simple like a message or it can be something more 
   User Id <user_id>
   User Profile Picture <avatar_url>
 
-- _/vogue_ : ![Example of a Social Media Card](/images/card-example.png "Social Media Card")
+- _/vogue_ : 
+![Example of a Social Media Card](/images/card-example.png "Social Media Card")
