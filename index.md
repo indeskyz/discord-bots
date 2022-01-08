@@ -1,4 +1,4 @@
-# VOGUE Discord Bot
+# VOGUE
 
 ---
 
