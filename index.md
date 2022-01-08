@@ -1,4 +1,4 @@
-# VOGUE 
+# VOGUE BOT
 
 ---
 
@@ -8,7 +8,7 @@
 
 This bot is used as an incentive for when a user boosts the discord server
 
-When a user boosts the server, they will be rewarded with a custom command in the form of _/username_of_booster_
+When a user boosts the server, they will be rewarded with a custom command in the form of */username_of_booster*
 This command can be something simple like a message or it can be something more complex like a message card that displays their social media links, artwork, portfolios, etc.
 
 ---
