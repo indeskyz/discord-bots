@@ -24,9 +24,9 @@ This command can be something simple like a message or it can be something more 
 
 ---
 
-## Command Responses Detials
+## Command Response Detials
 
-### Format is the following: *command_name* : *command response*
+### Format is the following: *command_name* : command response
 
 - _/about_ : I'm VOGUE's custom Bot for users who Boost the Server.
   Whenever you boost the server, you will awarded with a custom command based on your username.
@@ -43,9 +43,9 @@ This command can be something simple like a message or it can be something more 
 - _/user-info_ :
 
   - **User Creation Date** <created_date>
-  - **Days User Has Been A Part of the Server** <days_elapsed>
+  - **Days User Has Been A Part of the Server** <days_elapsed_since_joining>
   - **User Id** <user_id>
-  - **User Profile Picture** <avatar_url>
+  - **User Profile Picture** <avatar_thumbnail>
 
 - _/vogue_ :
 
