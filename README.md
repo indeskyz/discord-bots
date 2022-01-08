@@ -18,7 +18,7 @@ This command can be something simple like a message or it can be something more 
 | **/about**       | displays information about the bot and it's use |
 | **/hazel**       | displays a greeting about the author of the bot |
 | **/ping**        | used for inital testing                         |
-| **/server-info** | used for inital testing                         |
+| **/server-info** | displays information about the server                         |
 | **/user-info**   | gives basic information about the user          |
 | **/vogue**       | example command of a custom command for an user |
 
