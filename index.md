@@ -40,7 +40,6 @@ This command can be something simple like a message or it can be something more 
 - _/ping_ : pong
 
 - _/server-info_ :
-
   - **Server Name** <server_name>
   - **Total Members** <member_count>
 
@@ -53,4 +52,5 @@ This command can be something simple like a message or it can be something more 
 
 - _/vogue_ :
 
-![Example of a Social Media Card](/images/card-example.png "Social Media Card")
+![card-example](https://user-images.githubusercontent.com/21233558/148636308-94f71281-edd4-4203-8922-a7dbee5fc387.png)
+
