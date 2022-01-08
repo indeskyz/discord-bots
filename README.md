@@ -26,7 +26,7 @@ This command can be something simple like a message or it can be something more 
 
 ## Command Responses Detials
 
-### Format is the following: command_name : command response
+### Format is the following: *command_name* : *command response*
 
 - _/about_ : I'm VOGUE's custom Bot for users who Boost the Server.
   Whenever you boost the server, you will awarded with a custom command based on your username.
