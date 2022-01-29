@@ -7,8 +7,9 @@ const PROD = process.env.PROD;
 const REACTIONS = ["✅"]
 
 const SERVER_ROLES = {
-    verified: 'Verified',
-    audience: 'audience'
+    verified: 'Verification',
+    audience: 'audience',
+    test: 'front-row',
 }
 
 const SERVER_NAMES = {

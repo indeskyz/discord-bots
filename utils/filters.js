@@ -8,7 +8,7 @@ const filterReaction = (reaction) => {
 };
 
 const filterServer = (serverName, requiredServerName) => {
-	if(serverName.toLowerCase() === requiredServerName.toLowerCase()) {
+	if(serverName.toString() === requiredServerName.toString()) {
 		return true
 	}
 	return false
@@ -25,6 +25,6 @@ const filterUser = (userId) => {
 module.exports = {
     filterReaction,
     filterServer,
-	filterUser,
+    filterUser,
 }
 

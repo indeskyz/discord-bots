@@ -52,7 +52,7 @@ client.on("messageReactionAdd", async (reaction, user) => {
   const { name } = reaction.message.channel;
   if (!user.bot && filterReaction(reaction.emoji.name) && filterServer(name, VERIFICATION_CHANNEL)) {
     const verifiedUserRole = reaction.message.guild.roles.cache.find(
-      (r) => r.name === SERVER_ROLES.verified);
+      (r) => r.name === SERVER_ROLES.test);
     const { guild } = reaction.message;
     const member = guild.members.cache.find((member) => member.id === user.id);
     member.roles.add(verifiedUserRole);
