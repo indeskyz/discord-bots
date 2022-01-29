@@ -1,44 +1,20 @@
-const fs = require("fs");
 const { SlashCommandBuilder } = require("@discordjs/builders");
-const { SERVER_NAMES } = require("../config");
-const directory = __dirname;
+const { VERIFICATION_CHANNEL, SERVER_RULES } = require("../config");
+const { filterServer, filterUser } = require("../utils/filters");
+
 module.exports = {
   data: new SlashCommandBuilder()
     .setName("verify")
     .setDescription("used to verify users"),
   async execute(interaction) {
-    const serverName = interaction.guild.name.toLowerCase();
-    if (SERVER_NAMES.includes(serverName)) {
+    const serverName = interaction.channel.name.toLowerCase();
+    const { id } = interaction.user
+    if (filterServer(serverName, VERIFICATION_CHANNEL) && filterUser(id)) {
       const message = await interaction.reply({
-        content: "Verify yourself by clicking the react button!",
+        content: `${SERVER_RULES}\nVerify yourself by clicking the react button`,
         fetchReply: true,
       });
-      message
-        .react("✅")
-        .then(() => {
-          fs.writeFile(
-            `${directory}/verifyResults.txt`,
-            JSON.stringify(interaction.user),
-            { flags: "a" },
-            (err) => {
-              if (err) {
-                console.log(err);
-              }
-            }
-          );
-        })
-        .then(() => {
-          fs.writeFile(
-            `${directory}/resultsPartTwo.txt`,
-            JSON.stringify(interaction.member),
-            { flags: "a" },
-            (err) => {
-              if (err) {
-                console.log(err);
-              }
-            }
-          );
-        });
+      message.react("✅")
     }
   },
 };
