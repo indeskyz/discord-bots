@@ -7,7 +7,7 @@ module.exports = {
         .setName('verify')
         .setDescription('used to verify users'),
     async execute(interaction){
-        if(interaction.guild.name === 'verify'){
+        if(interaction.guild.name === 'verify' || 'verification'){
             await interaction.reply({content: 'Verify yourself by clicking the react button!', fetchReply:true});
             message.react('✅')
             .then(()=> console.log(interaction.member))
