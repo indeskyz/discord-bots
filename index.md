@@ -50,11 +50,11 @@ This command can be something simple like a message or it can be something more 
 
 - _/vogue_ :
 
-![Example of a Social Media Card](/images/card-example.png "Social Media Card")
+![Example of a Social Media Card](/img/card-example.png "Social Media Card")
 
 - _/verify_ :
 
   - **Will only be ran if the channel name is listed within the SERVER_NAMES constant found in config.js**
   - **You may set the role to give to the user using the SERVER_ROLES constant found within config.js**
 
-![Example of a Social Media Card](/images/verify-example.png "Social Media Card")
+![Example of a Social Media Card](/img/verify-example.png "Verification Example")
