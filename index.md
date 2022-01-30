@@ -50,7 +50,7 @@ This command can be something simple like a message or it can be something more 
 
 - _/vogue_ :
 
-![Example of a Social Media Card](/discord-bots/assets/card-example.png)
+![Example of a Social Media Card](/assets/card-example.png)
 
 
 - _/verify_ :
@@ -58,4 +58,4 @@ This command can be something simple like a message or it can be something more 
   - **Will only be ran if the channel name is listed within the SERVER_NAMES constant found in config.js**
   - **You may set the role to give to the user using the SERVER_ROLES constant found within config.js**
 
-![Example of a The Verification Command](/discord-bots/assets/verify-example.png)
+![Example of a The Verification Command](/assets/verify-example.png)
