@@ -54,4 +54,7 @@ This command can be something simple like a message or it can be something more 
 
 - _/verify_ :
 
+  - **Will only be ran if the channel name is listed within the SERVER_NAMES constant found in config.js**
+  - **You may set the role to give to the user using the SERVER_ROLES constant found within config.js**
+
 ![Example of a Social Media Card](/images/verify-example.png "Social Media Card")
