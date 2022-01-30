@@ -51,3 +51,7 @@ This command can be something simple like a message or it can be something more 
 - _/vogue_ :
 
 ![Example of a Social Media Card](/images/card-example.png "Social Media Card")
+
+- _/verify_ :
+
+![Example of a Social Media Card](/images/verify-example.png "Social Media Card")
